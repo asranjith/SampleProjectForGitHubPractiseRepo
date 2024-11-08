@@ -8,6 +8,8 @@ public class ChildWindowOfContactPage {
 		PageFactory.initElements(driver, this);
 		//conflict check.....
 		System.out.println("as ranjith   ");
+		
+		System.out.println(" added");
 	}
 
 }
