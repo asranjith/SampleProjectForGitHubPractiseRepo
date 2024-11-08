@@ -8,6 +8,8 @@ public class ChildWindowOfContactPage {
 		PageFactory.initElements(driver, this);
 		
 		System.out.println(" added");
+		
+		System.out.println(" madhura");
 	}
 
 }
