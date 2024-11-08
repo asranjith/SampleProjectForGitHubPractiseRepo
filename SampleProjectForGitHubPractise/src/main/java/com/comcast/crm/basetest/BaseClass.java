@@ -37,6 +37,7 @@ public class BaseClass {
 	
 	@BeforeSuite(groups= {"smokeTest","regressionTest"})
 	public void configBS() throws SQLException {
+		System.out.println("Before Suite");
 		Reporter.log("==Connect to DB, Report Config==",true);
 		dLib.getDbConnection();	
 	}
