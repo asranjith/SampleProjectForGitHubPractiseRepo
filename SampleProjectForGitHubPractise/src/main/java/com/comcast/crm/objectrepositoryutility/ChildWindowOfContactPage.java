@@ -7,7 +7,7 @@ public class ChildWindowOfContactPage {
 	public ChildWindowOfContactPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 		//conflict check.....
-		System.out.println("as ranjith");
+		System.out.println("as ranjith   ");
 	}
 
 }
